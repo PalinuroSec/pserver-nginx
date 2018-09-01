@@ -2,7 +2,7 @@
 FROM debian:9
 MAINTAINER Lorenzo "Palinuro" Faletra (palinuro@linux.it)
 ENV DEBIAN_FRONTEND noninteractive
-ENV VERSION 0.3
+ENV VERSION 0.4
 
 # Prepare environment
 RUN echo "deb http://deb.debian.org/debian stretch-backports main\ndeb http://deb.debian.org/debian buster main" >> /etc/apt/sources.list &&\
